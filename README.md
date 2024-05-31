@@ -29,6 +29,8 @@ pip install pygame
 git clone https://github.com/JaimeZepeda08/Tetris.git
 ```
 
+> OR download the project files from my [website](https://jaimezepeda.vercel.app/projects)
+
 2. **Navigate to the Directory**: change to the directory containing the game code:
 
 ```
