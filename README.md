@@ -54,3 +54,41 @@ python3 main.py
 `Spacebar`: Drop the current piece to the bottom
 
 `H`: hold the current piece for later use
+
+## Game Features
+
+### Grid
+
+The game grid consists of a 10x20 layout where the Tetris pieces fall. The grid is managed by the `Grid` class, which handles the placement of pieces, checking for line clears, and managing the game state.
+
+### Pieces
+
+The game includes all the standard Tetris pieces:
+
+- L-shaped
+- Reverse L-shaped
+- I-shaped
+- Square
+- T-shaped
+- S-shaped
+- Z-shaped
+
+Each piece has its own class inheriting from the Piece class. The pieces can rotate, move left, right, and down, and interact with the grid.
+
+### Holding Pieces
+
+Players can hold the current piece for later use. Press the hold key to swap the current piece with the held piece.
+
+### Clearing Lines
+
+When a row is completely filled with pieces, it gets cleared, and all rows above it move down.
+
+## Game Over
+
+The game ends when a new piece cannot be placed at the starting position because of existing pieces in the grid.
+
+## Possible Improvements
+
+- Adding a scoring system.
+- Implementing levels and increasing difficulty.
+- Adding a graphical interface for displaying the score and level.
